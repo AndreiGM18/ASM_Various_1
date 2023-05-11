@@ -61,7 +61,7 @@ next:
     sub     ecx, 4          ; fixes the loop
 
 ; when going around a circular matrix, starting from the first element
-; one can goes right, down, left, up in this order
+; one can go right, down, left, up in this order
 ; the number of elements going in one direction starts at len, theb decreases
 ; every time the direction is changed from right to down or from left to up
 ; an exception is the first right iteration (easily fixed by adding one extra
